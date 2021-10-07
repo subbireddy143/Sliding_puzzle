@@ -13,9 +13,9 @@ public class AdmobAdsScrpit : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        idApp = "ca-app-pub-3216591075136412~7625874199";//"ca-app-pub-3940256099942544~3347511713";
-        idBanner = "ca-app-pub-3216591075136412/4717280454";//"ca-app-pub-3940256099942544/6300978111";
-        idFullScreen = "ca-app-pub-3216591075136412/2130946884";//"ca-app-pub-3940256099942544/1033173712";
+        idApp = "";//"ca-app-pub-3940256099942544~3347511713";
+        idBanner = "";//"ca-app-pub-3940256099942544/6300978111";
+        idFullScreen = "";//"ca-app-pub-3940256099942544/1033173712";
 
         MobileAds.Initialize(idApp);
         RequestBannerAd();
